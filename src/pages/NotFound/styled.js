@@ -27,8 +27,8 @@ const NotFoundStyle = styled.div`
     margin-bottom: 25%;
     margin-left: 25px;
     @media (max-width: 999px) {
-      width: 350px;
-      height: 200px;
+      width: 320px;
+      height: 170px;
     }
   }
   h1 {
@@ -42,6 +42,7 @@ const NotFoundStyle = styled.div`
       margin-bottom: 0;
       font-size: 30px;
       margin-top: 8%;
+      justify-content: center;
     }
   }
   h3 {
