@@ -2,7 +2,7 @@
   "name": "exercise-portfolio-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Paulynho-lima.github.io/",
+  "homepage": "https://Paulynho-lima.github.io",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@testing-library/jest-dom": "^4.2.4",
