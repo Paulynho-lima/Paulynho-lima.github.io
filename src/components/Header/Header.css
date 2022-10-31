@@ -1,0 +1,202 @@
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.link2 {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.link:hover {
+  background-color: #384459;
+  width: 30%;
+  height: 45%;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.link2:hover {
+  font-weight: bold;
+}
+
+.header {
+  align-items: center;
+  background: linear-gradient(180deg, #00050d 0%, #020e41 100%);
+  display: flex;
+  height: 12vh;
+  justify-content: space-around;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  font-size: calc(6px + 3vmin);
+  z-index: 3;
+}
+
+.headerHambu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  left: 5%;
+  font-size: calc(6px + 3vmin);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  padding: 45px 0 0;
+}
+
+.headerHambu .listitens {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  position: absolute;
+  margin-top: -90px;
+  width: 23.5vw;
+  height: 177.8vh;
+  background: linear-gradient(50deg, #344a75d7 0%, #0f0e0ef4 100%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  transform: translateX(-20%);
+}
+
+#menus.listitens {
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+.headerHambu .listitens li {
+  margin: 2px 8px;
+}
+
+.logo {
+  margin-left: 50px;
+}
+.icon {
+  position: absolute;
+  z-index: 4;
+  left: 1%;
+  width: fit-content;
+  height: 44px;
+  cursor: pointer;
+}
+
+.hamburguer {
+  top: 50%;
+  left: 10%;
+  width: 30px;
+  height: 6px;
+  background: #ff3300;
+  position: absolute;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0, 5s;
+}
+
+.hamburguer::before {
+  top: -12px;
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background: #ff3300;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.hamburguer::after {
+  top: 12px;
+  content: "";
+  position: absolute;
+  width: 37px;
+  height: 6px;
+  background: #ff3300;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.icon.iconActive .hamburguer {
+  background: transparent;
+  box-shadow: 0 2px 5px transparent;
+}
+
+.icon.iconActive .hamburguer::after {
+  top: 0;
+  background: #fff;
+  transform: rotate(225deg);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon.iconActive .hamburguer::before {
+  top: 0;
+  background: #fff;
+  transform: rotate(135deg);
+  box-shadow: 0 2px 5px rgba(37, 189, 10, 0.885);
+}
+
+menumenuOpen {
+  width: 30vw;
+  height: 200vh;
+  background: linear-gradient(50deg, #344a75d7 0%, #0f0e0ef4 100%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#menus.menuClose {
+  animation-name: slide2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide2 {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.menuClose2 {
+  display: none;
+  width: 0px;
+}
+
+@media (max-width: 999px) {
+  .logo {
+    display: none;
+  }
+  .link {
+    display: none;
+  }
+
+  .headerHambu .listitens {
+    height: 316.6vw;
+    transform: translateX(0.3%);
+    z-index: 2;
+  }
+
+  #menus.menuClose {
+    animation-duration: 10s;
+  }
+  @keyframes slide {
+    from {
+      transform: translateX("");
+    }
+  }
+}
+
+@media (max-width: 400px) and (min-width: 280px) {
+  .headerHambu .listitens {
+    height: 370.7vw;
+    width: 36.5vw;
+  }
+}

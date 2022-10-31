@@ -1,0 +1,287 @@
+.container {
+  display: flex;
+}
+
+.fotos {
+  display: flex;
+  margin-top: -50px;
+  justify-content: flex-end;
+  width: 90%;
+
+  float: left;
+}
+
+.fotos2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fotoForm {
+  flex-wrap: wrap;
+  border-radius: 20%;
+  height: 35vmin;
+  margin-top: 8%;
+}
+
+.fotoNiver {
+  flex-wrap: wrap;
+  border-radius: 20%;
+  height: 38vmin;
+  margin-top: 8%;
+  margin-left: 50px;
+}
+
+.fotoNiver2 {
+  flex-wrap: wrap;
+  border-radius: 20%;
+  height: 40vmin;
+  margin-top: 1%;
+  margin-right: 70px;
+}
+
+.fotoAr {
+  flex-wrap: wrap;
+  border-radius: 20%;
+  height: 50vmin;
+  margin-top: 2%;
+  margin-left: 50px;
+}
+.sobreText {
+  display: flex;
+  flex-direction: column;
+  max-width: 95%;
+  margin: 0 auto;
+  margin-top: 90px;
+  gap: 10%;
+  font-size: 20px;
+}
+
+.sobreText p {
+  color: aliceblue;
+  text-align: justify;
+}
+
+.sobreText h1 {
+  color: aliceblue;
+}
+
+.staks {
+  float: left;
+  width: 30%;
+  padding: 30px;
+  margin-top: -40px;
+}
+
+.Aboutman {
+  background: url("../../assets/img/universo4.png");
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  height: 165.5vh;
+  margin-top: -1%;
+}
+
+h1 {
+  line-height: 60px;
+  display: flex;
+}
+
+h2 {
+  display: flex;
+  justify-content: right;
+  margin-right: 20%;
+  margin-top: 4%;
+}
+
+h3 {
+  line-height: 60px;
+  margin-left: -20px;
+}
+
+@media only screen and (max-width: 470px) {
+  img {
+    width: 50%;
+  }
+  .fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fotos2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fotoForm {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 35vmin;
+    margin-top: 14%;
+  }
+
+  .fotoNiver {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 38vmin;
+    margin-top: 1%;
+    margin-right: 53px;
+  }
+  .fotoNiver2 {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 40vmin;
+    margin-top: 1%;
+    margin-left: 20px;
+  }
+
+  .fotoAr {
+    margin-right: 110px;
+    margin-top: 1%;
+  }
+
+  h1 {
+    padding: 5px;
+  }
+
+  h2 {
+    margin-right: 50px;
+    justify-content: center;
+  }
+  .Aboutman {
+    height: 133.3vh;
+  }
+
+  .staks {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 470px) {
+  .fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fotos2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fotoForm {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 35vmin;
+    margin-top: 14%;
+  }
+
+  .fotoNiver {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 38vmin;
+    margin-top: 1%;
+    margin-right: 53px;
+  }
+  .fotoNiver2 {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 40vmin;
+    margin-top: 1%;
+    margin-left: 20px;
+  }
+
+  .fotoAr {
+    margin-right: 110px;
+    margin-top: 1%;
+  }
+
+  h1 {
+    padding: 5px;
+  }
+
+  h2 {
+    margin-right: 50px;
+    justify-content: center;
+  }
+  .Aboutman {
+    height: 290vh;
+  }
+
+  .staks {
+    display: none;
+  }
+
+  img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 280px) {
+  .fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fotos2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fotoForm {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 35vmin;
+    margin-top: 17%;
+    margin-left: 50px;
+  }
+
+  .fotoNiver {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 38vmin;
+    margin-top: 3%;
+    margin-right: 53px;
+    margin-left: 110px;
+  }
+  .fotoNiver2 {
+    flex-wrap: wrap;
+    border-radius: 20%;
+    height: 40vmin;
+    margin-top: 3%;
+    margin-left: 85px;
+  }
+
+  .fotoAr {
+    margin-right: 110px;
+    margin-top: 3%;
+    margin-left: 120px;
+  }
+
+  h1 {
+    padding: 5px;
+  }
+
+  h2 {
+    margin-right: 50px;
+    justify-content: center;
+    margin-left: 60px;
+  }
+  .Aboutman {
+    height: 171.1vh;
+  }
+  .Aboutman p {
+    width: 380px;
+    font-size: 17px;
+    padding: 5px;
+  }
+
+  .staks {
+    display: none;
+  }
+
+  img {
+    width: 50%;
+  }
+}

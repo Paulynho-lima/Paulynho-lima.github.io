@@ -1,0 +1,52 @@
+.home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.home h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+  font-size: 28px;
+}
+
+.minhaFoto {
+  border-radius: 45%;
+  height: 80vmin;
+  pointer-events: none;
+}
+
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  background: url("../../assets/img/TFSQ.gif") no-repeat center center;
+  background-size: cover;
+  height: 165.8vh;
+  margin-top: -1%;
+}
+
+@media (max-width: 400px) {
+  .home {
+    margin-top: -10%;
+  }
+  .homeMain {
+    margin-top: 30%;
+    height: 70.8vh;
+  }
+  .home h1 {
+    font-size: 12.8px;
+  }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 470px) {
+  .home h1 {
+    font-size: 20px;
+  }
+  .homeMain {
+    margin-top: 3%;
+    height: 140.8vh;
+  }
+}

@@ -1,0 +1,7 @@
+.mnDiv {
+  background: url("../../assets/img/CapturaEspaço.png");
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  height: 55vw;
+}
