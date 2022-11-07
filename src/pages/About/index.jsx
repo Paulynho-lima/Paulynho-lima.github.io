@@ -15,9 +15,9 @@ function About() {
           cidade de Tupã Sp sou Casado pai de 2 filhos.
         </p>
         <p>
-          Apaixonado por técnologia sou estudante de desenvolvimento
-          FrontEnd e BackEnd na Trybe, onde estou aprendendo a aprender,
-          a trabalhar, aprimorando minha Soft Skills e metodologia ágeis
+          Apaixonado por técnologia sou Bacharelado no curso Sistemas de Informação
+          e  formação tecnica em desenvolvimento FrontEnd e BackEnd Junior na Trybe,
+          onde aprendi a aprender,a trabalhar, aprimorando minha Soft Skills e metodologia ágeis
           estou em transição de carreira tenho experiência na área de
           transporte(motorista) e agora estou determinado e focado em
           trabalhar com técnologia , trabalho e acredito em ações que
