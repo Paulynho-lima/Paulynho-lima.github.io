@@ -45,7 +45,7 @@ function Linkes() {
             />
           </a>
           < NavLink className='link' to="/">Página Inicial</NavLink>
-          < NavLink className='link' to="/about">Sobre Min</NavLink>
+          < NavLink className='link' to="/about">Sobre Mim</NavLink>
           < NavLink className='link' to="/projects">Meus Projetos</NavLink>
 
         </div>
