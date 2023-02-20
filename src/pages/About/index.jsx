@@ -37,8 +37,8 @@ function About() {
               <li>Companheiro</li>
               <li>Amigavel</li>
               <li>Ama o que faz</li>
-              <li>Calmo</li>
-              <li>Bom ouvinte</li>
+              <li>Resiliente</li>
+              <li>Escuta Ativa</li>
             </ul>
           </div>
 
