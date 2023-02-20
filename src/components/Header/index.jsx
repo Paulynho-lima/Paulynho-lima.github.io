@@ -19,7 +19,7 @@ function Linkes() {
           <div className='headerHambu'>
             <ul className='listitens'>
               <li>< NavLink activeClassName='link2' to="/">Página Inicial</ NavLink ></li>
-              <li>< NavLink className=' link2' to="/about">Sobre Min</ NavLink ></li>
+              <li>< NavLink className=' link2' to="/about">Sobre Mim</ NavLink ></li>
               <li>< NavLink className=' link2' to="/projects">Meus Projetos</ NavLink ></li>
               <li>< NavLink className=' link2' to="/contact">Meus Contatos</NavLink></li>
               <li>< NavLink className=' link2' to="/404page">Not Found</NavLink></li>
